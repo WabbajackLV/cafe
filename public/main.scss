@@ -26,6 +26,9 @@ body{
 
 
 .topnav{
+    @media screen and (min-width){
+        //<!-- Image responsive-->
+    }
     background-color: #682c0e;
     overflow: hidden;
     text-align: center;
