@@ -1,7 +1,7 @@
 import React from "react";
 
 function Section2(){
-    return <section>
+    return (<section>
         <h3 className="offer">What we offer</h3>
             <hr/>
             <div className="offerRow">
@@ -16,7 +16,7 @@ function Section2(){
                 <img className="leftImg" src="img/about.jpg" alt=""/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis laoreet consequat dapibus. Nam suscipit magna tempor euismod eleifend. Vestibulum et mollis ipsum, eu fermentum ex. Ut a urna at dolor.</p>
             </div>
-    </section>
+    </section>);
 }
 
 export default Section2;

@@ -1,14 +1,14 @@
 import React from "react";
 
 function Header(){
-    return <header>
+    return (<header>
         <div className="topnav">
-            <a>Home</a>
-            <a>Menu</a>
-            <a>About Us</a>
-            <a>Login</a>
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">About Us</a>
+            <a href="">Login</a>
         </div>
-    </header>
+    </header>);
 }
 
 export default Header;
