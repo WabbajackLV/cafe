@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router";
 
 function Header() {
   return (
     <div className="topnav">
-      <a href="../public/index.html">Home</a>
-      <a href="../public/_menu.html">Menu</a>
-      <a href="../public/_aboutUs.html">About Us</a>
-      <a href="">Login</a>
+      <Link to={"./App.jsx"}>Home</Link>
+      <Link to={"./Menu.jsx"}>Menu</Link>
+      <Link to={"./AboutUs.jsx"}>About Us</Link>
+      <Link to={""}>Login</Link>
     </div>
   );
 }
