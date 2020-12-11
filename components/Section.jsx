@@ -1,16 +1,22 @@
 import React from "react";
-import coffeeCup from "../img/coffeeCup";
-import coffeeBeans from "../img/coffee-beans";
 
 function Section() {
   return (
     <div>
       <div>SIR</div>
-      <img className="coffeeBeans" src={coffeeBeans} alt="" />
+      <img
+        className="coffeeBeans"
+        src={process.env.PUBLIC_URL + "/img/coffee-beans.jpg"}
+        alt=""
+      />
       <h1>Rustic Cup</h1>
       <hr />
       <h3>A homelike friendly cafe</h3>
-      <img className="coffeeCup" src={coffeeCup} alt="" />
+      <img
+        className="coffeeCup"
+        src={process.env.PUBLIC_URL + "/img/coffeeCup.jpg"}
+        alt=""
+      />
     </div>
   );
 }
